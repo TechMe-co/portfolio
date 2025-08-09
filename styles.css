@@ -63,6 +63,8 @@ main .mainImg img {
     /* justify-content: center; */
     align-items: center;
     margin-left: 450px;
+    margin-bottom: 40px;
+    border-radius: 20px;
 }
 
 main .text h1 {
