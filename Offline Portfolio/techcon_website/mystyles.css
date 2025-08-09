@@ -1,0 +1,166 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header {
+    position: relative;
+    padding: 20px;
+    background-color: #074646;
+    box-sizing: border-box;
+
+}
+.mainhead {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+header nav ul {
+    display: flex;
+    position: absolute;
+    left: 500px;
+    top: -12px;
+}
+header nav ul li {
+    padding: 42px;
+    list-style-type: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #d4dbe9;
+    text-align: right;
+    font-size: 24px;
+}
+.content {
+    color: #505153;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin: 20px;
+    padding: 10px;
+}  
+.media {
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px#413e3e;
+}
+body {
+    background-color: #ffffff;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #074646;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+}
+h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #074646;
+}
+.images {
+    text-align: center;
+    white-space: nowrap;
+}
+.images li {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+}
+.images li img {
+    max-width: 100%;
+}
+#past-speakers {
+    color: #505153;
+    padding: 20px;
+}
+.speakers {
+    font-size: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    line-height: 1.3em;
+    padding: 10px;
+    margin: 10px;
+}
+.norm {
+    font-size: 20px;
+    padding: 10px;
+    text-align:center;
+}
+.c2 h4 {
+    color: #074646;
+}
+caption {
+    text-align: center;
+}
+.register {
+    text-align:center; 
+    font-size: 22px; 
+    border: 2px solid #074646;
+    border-radius: 14px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding: 10px;
+}
+.register input {
+    margin: 20px;
+    padding: 20px 40px;
+    font-size: 18px;
+    border: 2px solid #074646;
+    border-radius: 34px;
+}
+button {
+    font-size: 18px;
+    border-radius: 34px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+h3 {
+    text-align:left;
+    font-size: 22px;
+    color: #074646;
+    margin: 20px;
+}
+.links {
+    text-align:left;
+    font-size: 18px;
+    margin: 20px;
+}
+.links a {
+    text-decoration: none;
+}
+.links img {
+    width: 20px;
+    padding-right: 10px;
+}
+.contact {
+    text-align:left;
+    font-size: 22px; 
+    border: 2px solid #074646;
+    border-radius: 14px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.contact input {
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #074646;
+    border-radius: 34px;
+}
+.contact textarea {
+    border: 2px solid #074646;
+    border-radius: 34px;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 20px;
+}
+iframe {
+    position: relative;
+    left: 500px;
+    top: -100px;
+
+}

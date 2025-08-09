@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+header {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+}
+nav ul div {
+    display: flex;
+    padding-left: 20px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-left: 500px;
+}
+nav ul .logo {
+    margin-left: 200px;
+    margin-top: -10px;
+}
+nav ul .nav {
+    white-space: nowrap;
+}
+nav ul .nav li {
+    margin-left: 20px;
+    margin-top: -13px;
+    padding: 10px;
+}
+nav ul .nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav li a:hover {
+    color: #FF6565;
+}
+.background img {
+    margin-top: -200px;
+}
+main {
+    color: white;
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 382px;
+}
+main h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+main .p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+main .l {
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;  
+    line-height: 1.3em;
+    margin-top: 40px;
+}
+main button {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF6565;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 20px -2px #333435;
+    border-color: #FF6565;
+}
+main button:hover {
+    opacity: 0.9;
+}

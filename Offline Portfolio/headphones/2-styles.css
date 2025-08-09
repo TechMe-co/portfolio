@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+header {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+}
+nav ul div {
+    display: flex;
+    padding-left: 20px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-left: 500px;
+}
+nav ul .logo {
+    margin-left: 200px;
+    margin-top: -10px;
+}
+nav ul .nav {
+    white-space: nowrap;
+}
+nav ul .nav li {
+    margin-left: 20px;
+    margin-top: -13px;
+    padding: 10px;
+}
+nav ul .nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav li a:hover {
+    color: #FF6565;
+}
+.background img {
+    margin-top: -200px;
+}
+main {
+    color: white;
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 382px;
+}
+main h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+main .p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+main .l {
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;  
+    line-height: 1.3em;
+    margin-top: 40px;
+}
+main button {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF6565;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 20px -2px #333435;
+    border-color: #FF6565;
+}
+main button:hover {
+    opacity: 0.9;
+}
+section {
+    text-align: center;
+}
+section h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-bottom: 41px;
+}
+section .para {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 97px;
+}
+                                            /* What we do */
+section div .sound .text {
+    font-size: 18px;
+    font-weight: bold;
+}
+section div .sound p {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.3em;
+}
+section .collection {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+section .collection .sound {
+    padding: 50px;
+}
+section .collection .sound .text {
+    margin-top: 10px;
+}
+section .collection .sound p {
+    margin-top: -13px;
+}
+                                                /* Our Results */
+.results {
+    color: white;
+}
+section .packages {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+section .packages div h2 {
+    font-size: 46px;
+    font-weight: bold;
+}
+section .packages div p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+section .content {
+    margin-top: -650px;
+}
+section .content .para {
+    margin-top: -30px;
+}
+section .content .packages {
+    margin-top: -20px;
+    margin-left: 207px;
+}
+section .content .packages div img {
+    margin-top: -20px;
+    padding: 30px;
+}
+section .content .packages div .textdesign {
+   position: relative;
+   top: -200px;
+   left: 0;
+}
+section .content .packages div .textdesign p {
+    margin-top: -40px;
+}
